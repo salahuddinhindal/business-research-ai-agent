@@ -1,0 +1,24 @@
+# --- Core LangChain / agent framework ---
+langchain==1.3.13
+langchain-core==1.4.9
+
+# --- LangGraph (explicit graph runtime + persistence) ---
+langgraph==1.2.9
+langgraph-checkpoint-sqlite==3.1.0
+
+# --- LLM providers ---
+langchain-google-genai==4.2.7   # Planner agent (tool-calling, web research)
+langchain-groq==1.1.3           # Cleaner / Merger / LaTeX-fixer (fast text transforms)
+
+# --- Web search tool ---
+langchain-tavily==0.2.18
+
+# --- Scraping & content conversion ---
+requests==2.34.2
+beautifulsoup4==4.15.0
+markdownify==1.2.3
+
+# --- Environment / config ---
+python-dotenv==1.2.2
+
+

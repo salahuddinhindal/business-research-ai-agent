@@ -1,0 +1,23 @@
+.env
+__pycache__/
+*.pyc
+checkpoints/*.db
+data/outputs/*.md
+data/cleaned_outputs/*.md
+data/merged_output/*.md
+data/final_reports/*
+!data/final_reports/latex_build/.gitkeep
+!data/final_reports/.gitkeep
+# Virtual Environment
+venv/
+.venv/
+# Python cache
+__pycache__/
+*.pyc
+# LangGraph checkpoints
+checkpoints/
+# Generated files
+data/outputs/
+data/cleaned_outputs/
+data/merged_output/
+data/final_reports/
