@@ -1,65 +1,96 @@
 # Business Research AI Agent
 
-An AI-powered business research application built with Python and LangGraph to automate information gathering, research workflows, and business report generation.
+**An AI-powered business research and report-generation application built with Python and LangGraph.**
+
+This project focuses on automating business research workflows, gathering relevant information, processing research findings, and generating structured reports.
 
 ## Overview
 
-This project explores multi-agent AI workflows for business research, including information retrieval, data processing, verification, and structured report generation.
+The Business Research AI Agent demonstrates how AI-powered workflows can support business research by combining multiple processing steps, external tools, and report-generation capabilities.
 
-## Features
+## Key Features
 
-- Multi-agent business research workflows
-- LLM-powered research and information processing
-- Tool integration for gathering relevant information
-- Structured business research reports
+- Multi-step AI research workflows
+- Tool integration for information gathering
+- Research processing and verification workflows
+- Structured business report generation
 - PDF report generation
-- Python-based modular architecture
+- Modular Python project architecture
 
-## Tech Stack
+## Technology Stack
 
 - **Language:** Python
-- **AI Framework:** LangGraph
+- **Agent Framework:** LangGraph
 - **AI Integration:** LLM APIs
+- **Workflow Components:** Python modules and tools
 - **Output:** Structured reports and PDF documents
 
 ## Project Structure
 
-- `graph/` — Research workflow orchestration
-- `nodes/` — Individual workflow components
-- `Tools/` — Research and utility tools
-- `templates/` — Report templates
-- `data/` — Project data and generated reports
-- `checkpoints/` — Workflow checkpoint data
+```text
+BusinessResearchAgentLangGraph/
+├── Tools/
+├── checkpoints/
+├── data/
+├── graph/
+├── nodes/
+├── templates/
+├── main.py
+├── requirements.txt
+├── README.md
+└── LICENSE
+```
 
-## Setup
+## Getting Started
 
-1. Clone this repository.
-2. Create and activate a Python virtual environment.
-3. Install the required dependencies:
+### Prerequisites
+
+- Python installed
+- Git
+- API credentials required by the configured AI and research tools
+
+### Installation
+
+1. Clone the repository:
+
+   cd business-research-ai-agent
+   ```
+
+2. Create a virtual environment:
+
+   ```bash
+   python -m venv .venv
+   ```
+
+3. Activate it on Windows:
+
+   ```bash
+   .venv\Scripts\activate
+   ```
+
+4. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Configure the required API credentials using environment variables.
-5. Run the application:
+5. Configure the API credentials required by the project. Keep secrets in environment variables and never commit API keys.
+
+6. Run the application:
 
    ```bash
    python main.py
    ```
 
-Refer to the source code and configuration requirements for the supported environment variables and API providers.
+Refer to the source code for the specific API providers, environment variables, and configuration requirements.
 
-## Development
+## Development Focus
 
-This repository is being explored and customized by **Salahuddin Hindal** as part of his work on AI-powered business research and workflow automation.
+**Maintainer profile:** Salahuddin Hindal
 
-Custom changes and improvements should be documented here as they are implemented and tested.
+Areas of focus include Python development, AI agent workflows, API integration, and business process automation. Project-specific improvements should be documented as they are implemented and tested.
 
-## Acknowledgements
-
-This project builds upon the open-source work of [Abdullah9712](https://github.com/Abdullah9712/BusinessResearchAgentLangGraph). Please refer to the original repository and its MIT license for attribution and reuse requirements.
 
 ## License
 
-See the [LICENSE](LICENSE) file for applicable license terms.
+This project includes the MIT license from the original repository. Refer to the license file for the applicable terms.
